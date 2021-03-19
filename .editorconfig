@@ -10,13 +10,13 @@ trim_trailing_whitespace = true
 max_line_length = 120
 tab_width = 4
 
-[{*.bash, *.sh, *.zsh}]
+[*.{bash,sh,zsh}]
 indent_size = 2
 tab_width = 2
 
-[{*.har, *.json}]
+[*.{har,json}]
 indent_size = 2
 
-[{*.yaml, *.yml}]
+[*{.yaml,yml}]
 indent_style = space
 indent_size = 2
