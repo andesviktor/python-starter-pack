@@ -28,5 +28,5 @@ jobs:
       - name: Run EditorChecker
         uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
         with:
-          path: ./
+          path: -config .editorconfig
 
