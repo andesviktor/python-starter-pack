@@ -1,2 +1,6 @@
 # Python Starter Pack
-Python Starter Pack from vandes
+
+This is Python Starter Pack for me:
+- Gitignore with VSCode and PyCharm
+- Github Actions
+- EditorConfig
