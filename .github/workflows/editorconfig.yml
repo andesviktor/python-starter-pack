@@ -1,0 +1,22 @@
+name: EditorConfig
+
+on:
+    pull_request:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Python
+              uses: actions/setup-python@v1
+              with:
+                  python-version: 3.x
+            - name: Install dependencies
+              run: |
+                  pythom -m pip install -upgrade pip
+            - name: Run EditorChecker
+              uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
