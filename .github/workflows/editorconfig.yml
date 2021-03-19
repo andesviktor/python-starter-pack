@@ -17,6 +17,6 @@ jobs:
                   python-version: 3.x
             - name: Install dependencies
               run: |
-                  pythom -m pip install -upgrade pip
+                  python -m pip install -upgrade pip
             - name: Run EditorChecker
               uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
