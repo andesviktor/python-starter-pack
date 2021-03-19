@@ -5,5 +5,6 @@
 This is Python Starter Pack for me:
 
 - Gitignore with VSCode and PyCharm
-- Github Actions
+- Github Actions (TODO: More Github Actions)
 - EditorConfig
+- TODO: Pre-commit (https://pre-commit.com/#pre-commit-configyaml---hooks)
