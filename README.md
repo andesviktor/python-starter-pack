@@ -8,4 +8,4 @@ This is Python Starter Pack for me:
 - Github Actions (TODO: More Github Actions)
 - EditorConfig
 - Pre-commit
-	- [EditorConfig Checker](https://github.com/editorconfig-checker/editorconfig-checker.python) 
+	- [EditorConfig Checker](https://github.com/editorconfig-checker/editorconfig-checker.python)
