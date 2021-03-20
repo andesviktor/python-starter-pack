@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/editorconfig-checker/editorconfig-checker.python
+    rev: '2.3.4'  # pick a git hash / tag to point to
+    hooks:
+      - id: editorconfig-checker
+        args: [ --config=.editorconfig ]
