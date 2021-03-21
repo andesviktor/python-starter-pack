@@ -6,6 +6,6 @@ This is Python Starter Pack for me:
 
 - Gitignore with VSCode and PyCharm
 - Github Actions (TODO: More Github Actions)
-- EditorConfig
-- Pre-commit
+- [EditorConfig](https://editorconfig.org/)
+- [Pre-commit](https://pre-commit.com/)
 	- [EditorConfig Checker](https://github.com/editorconfig-checker/editorconfig-checker.python)
